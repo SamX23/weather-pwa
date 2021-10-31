@@ -9,10 +9,8 @@ body,
 }
 
 .main-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
-    url("https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-
-  background-size: cover;
+  background-image: url("bg alam.jpg");
+  background-size: auto;
   background-position: center;
 }
 
@@ -86,19 +84,32 @@ p {
   align-items: center;
 }
 
+footer p,
+footer a {
+  opacity: 100%;
+  color: rgb(247, 247, 247);
+}
+
 footer {
   position: fixed;
   bottom: 50px;
   margin: 0 auto;
   text-align: center;
   padding: 10px 25px;
-  background: rgba(167, 148, 99, 0.5);
+  background-color: rgb(63, 63, 63, 0.7);
+  border-radius: 5%;
+  transition: 0.3s;
+}
+
+footer:hover {
   border-radius: 50%;
+  transition: 0.3s;
 }
 
 footer p,
-footer a {
-  color: rgb(247, 247, 247);
+footer a:hover {
+  opacity: 100%;
+  color: rgb(252, 94, 94);
 }
 
 @media only screen and (max-width: 600px) {
